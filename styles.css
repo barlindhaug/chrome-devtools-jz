@@ -1,0 +1,49 @@
+html {
+  --backgroundColor: #ccc;
+  --textColor: #222;
+  --mainColor: #54808c;
+}
+
+body {
+  margin: 20px;
+  background-color: var(--backgroundColor);
+}
+
+header {
+  background-color: var(--mainColor);
+}
+
+button {
+  border-color: var(--mainColor)
+}
+
+button:hover {
+  font-size: 14px;
+}
+
+button.warning {
+  background-color: red;
+}
+
+h1 {
+  color: var(--textColor);
+}
+
+h2 {
+  font-size: 16px;
+  color: var(--mainColor);
+}
+
+
+@media (min-width: 400px) {
+  .grid .col {
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+  }
+  .grid:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

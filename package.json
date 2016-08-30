@@ -1,0 +1,9 @@
+{
+  "name": "jz-chrome-devtools",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "1.1.0"
+  }
+}
