@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+
+    <title>JavaZone Chrome development tools workshop</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>JavaZone workshop</h1>
+    </header>
+
+    <button id="grow">Press!</button>
+
+    <script>
+        var x = [];
+
+        function grow() {
+          for (var i = 0; i < 10000; i++) {
+            document.body.appendChild(document.createElement('div'));
+          }
+          x.push(new Array(1000000).join('x'));
+        }
+
+        document.getElementById('grow').addEventListener('click', grow);
+    </script>
+
+</body>
+</html>

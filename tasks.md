@@ -20,20 +20,22 @@ Look at the css variables used in the HTML class, find a nice color theme using 
 color picker.
 
 
-## 2 Network
+## 2: Network
 
 ### Copy as curl
+Look in the network tab for the XHR request for a list of all the workshops. Look
+at timings, size and try the "copy as curl" command.
 
+## 3: Perfomance
 
-## 3 Perfomance
+### Memory and DOM elements leak
+In the timeline tab select "memory" and start to capture the memory usage while
+pressing the button.
 
-### Memory leak
+### JS profile
 
-### DOM element leak
-
-### CPU Usage
 
 ### Rendering order
 Look at the rendering order on heavy sites like vg.no. Remember to turn off adblock!
 
-## 4 Node debugging
+## 4: Node debugging
