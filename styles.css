@@ -5,8 +5,9 @@ html {
 }
 
 body {
-  margin: 20px;
+  margin: 20px auto;
   background-color: var(--backgroundColor);
+  max-width: 800px;
 }
 
 header {
@@ -23,6 +24,10 @@ button:hover {
 
 button.warning {
   background-color: red;
+}
+
+h1, h2 {
+  text-align: center;
 }
 
 h1 {
@@ -45,5 +50,11 @@ h2 {
     content: "";
     display: table;
     clear: both;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    margin: 20px;
   }
 }
