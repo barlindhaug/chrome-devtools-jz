@@ -48,8 +48,12 @@ to fix it. Re-run the JS profile to check for improvements.
 ### Rendering order
 Look at the rendering order on heavy sites like vg.no. Remember to turn off adblock!
 
-## 6: Node debugging
 
+## 6: Node debugging
+Make sure you have `node -v` `6.3.0` or higher
+
+Run `node --inspect server`. Copy and paste the chrome-devtools:// URL to a tab,
+open `localhost:3000` in a different tab.
 
 
 ## 7: Progressive Web Apps
