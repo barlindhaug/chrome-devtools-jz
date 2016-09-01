@@ -1,3 +1,7 @@
+'use strict';
+
+// Example from: http://bahmutov.calepin.co/improving-angular-web-app-performance-example.html
+
 var isPrime = function isPrime(n) {
   try {
     var k;

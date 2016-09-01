@@ -8,9 +8,11 @@ Right click on an html element and change the text.
 Use the shotrtcut buttons in the style tab to add temporary "states" and classes
 to the button.
 
+
 ## 2: Sources editor
 Use the "sources" editor to edit the source files of this project directly in
-chrome.
+chrome. Right click and use "Add folder to workspace", then "Map to file system
+resource".
 
 
 ## 3: CSS
@@ -31,6 +33,7 @@ color picker.
 ### Copy as curl
 Look in the network tab for the XHR request for a list of all the workshops. Look
 at timings, size and try the "copy as curl" command.
+
 
 ## 5: Perfomance
 
