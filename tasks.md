@@ -8,6 +8,12 @@ Right click on an html element and change the text.
 Use the shotrtcut buttons in the style tab to add temporary "states" and classes
 to the button.
 
+## 2: Sources editor
+Use the "sources" editor to edit the source files of this project directly in
+chrome.
+
+
+## 3: CSS
 ### Device mode
 Open device mode and turn on media queries. Change the resolution to more and less
 than 400px and see the difference.
@@ -20,22 +26,27 @@ Look at the css variables used in the HTML class, find a nice color theme using 
 color picker.
 
 
-## 2: Network
+## 4: Network
 
 ### Copy as curl
 Look in the network tab for the XHR request for a list of all the workshops. Look
 at timings, size and try the "copy as curl" command.
 
-## 3: Perfomance
+## 5: Perfomance
 
 ### Memory and DOM elements leak
 In the timeline tab select "memory" and start to capture the memory usage while
 pressing the button.
 
 ### JS profile
-
+Run the prime number script and do a JS profile. Look for unoptimized code and try
+to fix it. Re-run the JS profile to check for improvements.
 
 ### Rendering order
 Look at the rendering order on heavy sites like vg.no. Remember to turn off adblock!
 
-## 4: Node debugging
+## 6: Node debugging
+
+
+
+## 7: Progressive Web Apps
