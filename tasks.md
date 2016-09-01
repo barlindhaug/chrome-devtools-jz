@@ -1,5 +1,7 @@
 # Tasks
 
+## 0: See README.md and preform the installation.
+
 ## 1: Inspect element
 
 ### Manipulate html

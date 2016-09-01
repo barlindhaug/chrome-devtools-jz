@@ -1,4 +1,4 @@
-#Chorme developer tools workshop
+# Chorme developer tools workshop
 
 ## Installation
 
