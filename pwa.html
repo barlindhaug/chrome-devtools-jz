@@ -1,10 +1,18 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
     <meta content='width=device-width, initial-scale=1' name='viewport'>
 
     <title>JavaZone Chrome development tools workshop</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <link rel="manifest" href="/pwa-manifest.json">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Iteratekonferansen">
+    <link rel="apple-touch-icon" href="images/iterate-logo-152x152.png">
 </head>
 <body>
     <header>
@@ -20,20 +28,12 @@
         </div>
     </div>
 
-    <button>Don't press</button>
-
-    <footer>
-        <ul>
-            <li>
-                <a href="/memory.html">Memory leak task</a>
-            </li>
-            <li>
-                <a href="/primes.html">JS profiling task</a>
-            </li>
-            <li>
-                <a href="/pwa.html">Progressive web app</a>
-            </li>
-    </footer>
-    <script type="text/javascript" src="index.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('./pwa-service-worker.js')
+            .then(() => console.log('Service Worker Registered!'));
+    }
+    </script>
 </body>
 </html>
