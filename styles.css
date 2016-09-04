@@ -66,3 +66,19 @@ h2 {
     margin: 20px;
   }
 }
+
+.too-small-screen, .big-screen {
+  display: none;
+}
+
+@media (min-width: 300px) {
+  .too-small-screen {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .big-screen {
+    display: block;
+  }
+}
